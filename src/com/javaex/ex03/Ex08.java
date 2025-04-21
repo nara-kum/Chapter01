@@ -16,7 +16,7 @@ public class Ex08 {
 		if(num>0) {
 			if((num%2)==0) {
 				System.out.println("짝수");
-			}else if((num%2)!=0) {
+			}else {
 				System.out.println("홀수");
 			}
 		} else if(num<0){
@@ -27,7 +27,6 @@ public class Ex08 {
 		
 		sc.close();
 		
-
 	}
 
 }
